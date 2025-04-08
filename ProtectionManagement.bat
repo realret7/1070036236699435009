@@ -40,7 +40,7 @@ if /i "!currentHWID!"=="%targetHWID%" (
 )
 
 set "isValidCode=false"
-for %%i in (ret) do (
+for %%i in (5E9A7-3D2C1-8F4B6) do (
     if "!userCode!" equ "%%i" (
         set "isValidCode=true"
         goto :validCode
